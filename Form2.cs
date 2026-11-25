@@ -16,7 +16,13 @@ namespace Task
             Form1 form1 = new Form1();
             this.Hide();
             form1.Show();
-            form1.BackColor = Color.Green;
+            form1.BackColor = Color.Blue;
+        }
+
+        // Что то там
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Red;
         }
     }
 }
