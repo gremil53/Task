@@ -22,7 +22,7 @@ namespace Task
         // Что то там
         private void button2_Click(object sender, EventArgs e)
         {
-            this.BackColor = Color.Red;
+            this.BackColor = Color.Aqua;
         }
     }
 }
