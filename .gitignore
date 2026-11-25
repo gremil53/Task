@@ -1,0 +1,27 @@
+# Служебные каталоги Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Результаты сборки (Build results)
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+bld/
+
+# Файлы журнала и временные файлы
+*.log
+*.tmp
+~$*
+*.pidb
+*.cache
+
+# Пакеты NuGet
+packages/
+*.nupkg
