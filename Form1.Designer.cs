@@ -5,6 +5,7 @@ namespace Task
         private System.ComponentModel.IContainer components = null;
         private System.Windows.Forms.Button buttonOpenForm2;
         private System.Windows.Forms.Label labelTitle;
+        private System.Windows.Forms.CheckBox checkBox1;
 
         protected override void Dispose(bool disposing)
         {
@@ -19,6 +20,7 @@ namespace Task
         {
             this.buttonOpenForm2 = new System.Windows.Forms.Button();
             this.labelTitle = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // buttonOpenForm2
@@ -41,11 +43,22 @@ namespace Task
             this.labelTitle.TabIndex = 1;
             this.labelTitle.Text = "Первая форма";
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(310, 280);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(170, 24);
+            this.checkBox1.TabIndex = 2;
+            this.checkBox1.Text = "Изменить цвет темы";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.buttonOpenForm2);
             this.Name = "Form1";
